@@ -1,0 +1,32 @@
+.brand {
+    .header-title {
+        font-size: 2rem !important;
+    }
+    .header-subtitle {
+        font-size: 1.5rem !important;
+    }
+}
+
+.code {
+    padding: 1rem;
+    border-radius: 0.2em !important;
+    background-color: rgba(26, 20, 20, 0.603);
+    font-family: 'Roboto Mono', monospace !important;
+    span.string {
+        color: #e48820 !important;
+    }
+    span.function {
+        color: #fbdc51 !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .brand {
+        .header-title {
+            font-size: 5rem !important;
+        }
+        .header-subtitle {
+            font-size: 3rem !important;
+        }
+    }
+}

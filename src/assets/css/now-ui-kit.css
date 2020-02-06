@@ -2768,6 +2768,22 @@ body {
   .nav-align-center .nav-pills {
     display: inline-flex; }
 
+.header .header .title {
+  font-size: 2rem; }
+
+.header .header .sub-title {
+  font-size: 1.5rem; }
+  .header .header .sub-title .function {
+    color: #fbdc51; }
+
+@media (min-width: 576px) {
+  .header .title {
+    font-size: 5rem; }
+  .header .sub-title {
+    font-size: 3rem; }
+    .header .sub-title .function {
+      color: #fbdc51; } }
+
 /* --------------------------------
 
 Nucleo Outline Web Font - nucleoapp.com/
@@ -5955,7 +5971,9 @@ td.rdtYear:hover {
 @media screen and (max-width: 991px) {
   .sidebar-collapse .navbar-collapse:before {
     background: #2CA8FF;
-    background: linear-gradient(#2CA8FF, #2c2c2c 80%); } }
+    background: linear-gradient(#2CA8FF, #2c2c2c 80%); }
+  .navbar-nav .dropdown-menu {
+    position: static !important; } }
 
 @media screen and (max-width: 768px) {
   .nav-tabs {

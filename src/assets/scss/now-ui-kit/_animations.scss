@@ -1,0 +1,21 @@
+.scrolling-arrow {
+    animation: scroll-arrow-down;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll-arrow-down {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(30px);
+    }
+    60% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
